@@ -1,0 +1,5 @@
+---
+- name: Remove rootfs symlink if present
+  ansible.builtin.file:
+    path: "{{ samba_data_path }}/rootfs"
+    state: absent

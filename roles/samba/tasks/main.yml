@@ -1,0 +1,4 @@
+---
+- ansible.builtin.include_tasks: samba_infrastructure.yml
+- ansible.builtin.include_tasks: samba_config.yml
+- ansible.builtin.include_tasks: samba_users.yml
