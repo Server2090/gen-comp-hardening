@@ -1,0 +1,16 @@
+# WordPress / Apache -----------------
+wp_path: /srv/www/vhosts/wordpress
+wp_db_name: wordpress_broke
+wp_db_user: blueteam
+wp_db_password: {{ wp_db_password }}
+wp_db_host: 127.0.0.1
+
+# MySQL ------------------------------
+mysql_root_password: {{ mysql_root_password }}
+
+# Samba ------------------------------
+samba_score_path: /srv/samba/score
+samba_data_path: /srv/samba/data
+
+# Docker -----------------------------
+docker_network: cyberforce_net
